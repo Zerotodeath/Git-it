@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://god is dead.png" type="Texture" id=1]
 [ext_resource path="res://Coolhange.png" type="Texture" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
 
 [node name="Work" type="Node2D"]
 
@@ -14,3 +15,7 @@ texture = ExtResource( 1 )
 position = Vector2( 472, 320 )
 scale = Vector2( 0.0653113, 0.0653112 )
 texture = ExtResource( 2 )
+
+[node name="icon" type="Sprite" parent="."]
+position = Vector2( 240, 520 )
+texture = ExtResource( 3 )
